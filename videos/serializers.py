@@ -31,5 +31,7 @@ class VideoSerializer(serializers.ModelSerializer):
             'view_count',
             'created_at',
             'likes',
+            'like_count',
             'dislikes',
+            'dislike_count'
         ]

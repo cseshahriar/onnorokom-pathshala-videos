@@ -25,8 +25,16 @@ class Video(BaseAttribute):
         return self.likes.all()
 
     @property
+    def like_count(self):
+        return self.like_list.count()
+
+    @property
     def dislike_list(self):
         return self.dislikes.all()
+
+    @property
+    def dislike_count(self):
+        return self.dislike_list.count()
 
     def __str__(self):
         return self.title
