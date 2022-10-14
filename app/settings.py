@@ -54,6 +54,7 @@ PLUGIN_APPS = [
     'rest_framework.authtoken',
     "corsheaders",
     "import_export",
+    'django_extensions',
 ]
 
 # add project applications here
