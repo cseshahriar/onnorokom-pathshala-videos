@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
 
-from .models import Video, like, Dislike
+from .models import Video, Like, Dislike
 
 
 @admin.register(Video)
@@ -23,7 +23,7 @@ class VideoAdmin(admin.ModelAdmin):
     date_hierarchy = 'created_at'
 
 
-@admin.register(like)
+@admin.register(Like)
 class likeAdmin(admin.ModelAdmin):
     list_display = ('id', 'created_at', 'updated_at', 'video', 'user_id')
     list_filter = ('created_at', 'updated_at', 'video')

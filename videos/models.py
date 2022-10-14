@@ -40,7 +40,7 @@ class Video(BaseAttribute):
         super(Video, self).save(*args, **kwargs)
 
 
-class like(BaseAttribute):
+class Like(BaseAttribute):
     video = models.ForeignKey(
         Video, on_delete=models.CASCADE,
         related_name='likes'

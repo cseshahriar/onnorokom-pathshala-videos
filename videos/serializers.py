@@ -14,6 +14,7 @@ class VideoSerializer(serializers.ModelSerializer):
             'author_id',
             'like_list',
             'dislike_list',
+            'view_count',
             'created_at'
         ]
 

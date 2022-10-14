@@ -1,3 +1,22 @@
-from django.shortcuts import render  # noqa
+from rest_framework import status, viewsets  # noqa
+from rest_framework.response import Response  # noqa
+from rest_framework.decorators import action # noqa
+from rest_framework.permissions import IsAuthenticated, AllowAny  # noqa
 
-# Create your views here.
+from .models import Video, Like, Dislike  # noqa
+from .serializers import VideoSerializer, LikeSerializer, DisLikeSerializer  # noqa
+from rest_framework.authentication import TokenAuthentication  # noqa
+
+
+class VideoViewSet(viewsets.ModelViewSet):
+    queryset = Video.objects.all()
+    serializer_class = VideoSerializer
+    permission_classes = (AllowAny,)
+
+    def retrieve(self, request, *args, **kwargs):
+        instance = self.get_object()
+        # view count increase if video video detail
+        instance.view_count += 1
+        instance.save()
+        serializer = self.get_serializer(instance)
+        return Response(serializer.data)
