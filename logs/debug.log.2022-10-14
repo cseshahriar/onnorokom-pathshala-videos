@@ -1,0 +1,581 @@
+2022-10-14 00:45:05,933 INFO autoreload 27650 139748800872448 Watching for file changes with StatReloader
+2022-10-14 00:59:40,047 INFO autoreload 30162 139709170110464 Watching for file changes with StatReloader
+2022-10-14 01:00:26,855 INFO autoreload 30394 140420071702528 Watching for file changes with StatReloader
+2022-10-14 01:00:41,251 INFO autoreload 30394 140420071702528 /home/shosen/my_projects/onnorokom-pathshala-users/users/admin.py changed, reloading.
+2022-10-14 01:00:41,772 INFO autoreload 30452 139758677573632 Watching for file changes with StatReloader
+2022-10-14 01:00:47,234 INFO autoreload 30489 140055820386304 Watching for file changes with StatReloader
+2022-10-14 01:01:08,635 INFO autoreload 30489 140055820386304 /home/shosen/my_projects/onnorokom-pathshala-users/users/admin.py changed, reloading.
+2022-10-14 01:01:09,075 INFO autoreload 30565 139994305261568 Watching for file changes with StatReloader
+2022-10-14 01:01:30,534 INFO autoreload 30565 139994305261568 /home/shosen/my_projects/onnorokom-pathshala-users/users/admin.py changed, reloading.
+2022-10-14 01:01:30,995 INFO autoreload 30631 140662951682048 Watching for file changes with StatReloader
+2022-10-14 01:01:46,391 INFO autoreload 30631 140662951682048 /home/shosen/my_projects/onnorokom-pathshala-users/users/admin.py changed, reloading.
+2022-10-14 01:01:46,855 INFO autoreload 30688 140427509497856 Watching for file changes with StatReloader
+2022-10-14 01:01:51,102 INFO autoreload 30688 140427509497856 /home/shosen/my_projects/onnorokom-pathshala-users/users/admin.py changed, reloading.
+2022-10-14 01:01:51,623 INFO autoreload 30719 140246997532672 Watching for file changes with StatReloader
+2022-10-14 01:03:22,994 INFO autoreload 30719 140246997532672 /home/shosen/my_projects/onnorokom-pathshala-users/users/admin.py changed, reloading.
+2022-10-14 01:03:23,499 INFO autoreload 30978 140552730927104 Watching for file changes with StatReloader
+2022-10-14 01:03:40,929 INFO autoreload 30978 140552730927104 /home/shosen/my_projects/onnorokom-pathshala-users/users/admin.py changed, reloading.
+2022-10-14 01:03:41,431 INFO autoreload 31071 139660783386624 Watching for file changes with StatReloader
+2022-10-14 01:03:46,992 INFO autoreload 31107 140409608617984 Watching for file changes with StatReloader
+2022-10-14 01:04:05,884 INFO autoreload 31162 139958587916288 Watching for file changes with StatReloader
+2022-10-14 01:04:11,190 INFO autoreload 31162 139958587916288 /home/shosen/my_projects/onnorokom-pathshala-users/users/admin.py changed, reloading.
+2022-10-14 01:04:11,690 INFO autoreload 31189 139895352877056 Watching for file changes with StatReloader
+2022-10-14 01:04:41,883 INFO autoreload 31189 139895352877056 /home/shosen/my_projects/onnorokom-pathshala-users/app/settings.py changed, reloading.
+2022-10-14 01:04:42,245 INFO autoreload 31305 140603391168512 Watching for file changes with StatReloader
+2022-10-14 01:04:55,520 INFO autoreload 31305 140603391168512 /home/shosen/my_projects/onnorokom-pathshala-users/app/settings.py changed, reloading.
+2022-10-14 01:04:55,977 INFO autoreload 31362 140268544294912 Watching for file changes with StatReloader
+2022-10-14 01:05:10,652 INFO autoreload 31362 140268544294912 /home/shosen/my_projects/onnorokom-pathshala-users/users/admin.py changed, reloading.
+2022-10-14 01:05:11,108 INFO autoreload 31429 140035211739136 Watching for file changes with StatReloader
+2022-10-14 01:05:23,753 INFO autoreload 31429 140035211739136 /home/shosen/my_projects/onnorokom-pathshala-users/users/admin.py changed, reloading.
+2022-10-14 01:05:24,215 INFO autoreload 31481 140057734361088 Watching for file changes with StatReloader
+2022-10-14 01:30:32,754 INFO autoreload 35639 140688739188736 Watching for file changes with StatReloader
+2022-10-14 01:30:35,970 WARNING log 35639 140688645678656 Not Found: /
+2022-10-14 01:30:36,513 WARNING log 35639 140688565990976 Not Found: /favicon.ico
+2022-10-14 01:30:42,387 ERROR log 35639 140688565990976 Internal Server Error: /api/users/
+Traceback (most recent call last):
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 654, in get_context
+    raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 562, in get_raw_data_form
+    data = serializer.data.copy()
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 257, in data
+    self._data = self.get_initial()
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 405, in get_initial
+    for field in self.fields.values()
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `username` is not valid for model `User`.
+2022-10-14 01:31:25,869 INFO autoreload 35639 140688739188736 /home/shosen/my_projects/onnorokom-pathshala-users/users/serializers.py changed, reloading.
+2022-10-14 01:31:26,339 INFO autoreload 35980 140410073792512 Watching for file changes with StatReloader
+2022-10-14 01:31:55,960 ERROR log 35980 140409961432640 Internal Server Error: /api/users/
+Traceback (most recent call last):
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "/home/shosen/my_projects/onnorokom-pathshala-users/users/serializers.py", line 16, in create
+    Token.objects.create(user=user)
+AttributeError: type object 'Token' has no attribute 'objects'
+2022-10-14 01:33:53,370 INFO autoreload 36540 140141004468224 Watching for file changes with StatReloader
+2022-10-14 01:33:57,045 INFO autoreload 36574 140104200028160 Watching for file changes with StatReloader
+2022-10-14 01:34:01,383 INFO autoreload 36574 140104200028160 /home/shosen/my_projects/onnorokom-pathshala-users/app/settings.py changed, reloading.
+2022-10-14 01:34:01,801 INFO autoreload 36766 140714589691904 Watching for file changes with StatReloader
+2022-10-14 01:34:14,366 INFO autoreload 36766 140714589691904 /home/shosen/my_projects/onnorokom-pathshala-users/app/settings.py changed, reloading.
+2022-10-14 01:34:14,892 INFO autoreload 36838 140252832096256 Watching for file changes with StatReloader
+2022-10-14 01:34:19,233 WARNING log 36838 140252739003968 Bad Request: /api/users/
+2022-10-14 01:34:23,187 WARNING log 36838 140252739003968 Bad Request: /api/users/
+2022-10-14 01:35:05,423 WARNING log 36838 140252739003968 Not Found: /api/manage
+2022-10-14 01:35:11,006 WARNING log 36838 140252739003968 Not Found: /manage/
+2022-10-14 01:35:41,127 INFO autoreload 36838 140252832096256 /home/shosen/my_projects/onnorokom-pathshala-users/app/settings.py changed, reloading.
+2022-10-14 01:35:41,602 INFO autoreload 37389 140549454548992 Watching for file changes with StatReloader
+2022-10-14 01:35:51,028 INFO autoreload 37389 140549454548992 /home/shosen/my_projects/onnorokom-pathshala-users/app/settings.py changed, reloading.
+2022-10-14 01:35:51,490 INFO autoreload 37490 140554534912000 Watching for file changes with StatReloader
+2022-10-14 01:36:23,760 WARNING base 37490 140554441582144 Session data corrupted
+2022-10-14 07:22:27,879 INFO autoreload 9069 140079913205760 Watching for file changes with StatReloader
+2022-10-14 07:22:33,196 INFO autoreload 9069 140079913205760 /home/shosen/my_projects/onnorokom-pathshala-videos/app/settings.py changed, reloading.
+2022-10-14 07:22:33,600 INFO autoreload 9119 140616636846080 Watching for file changes with StatReloader
+2022-10-14 07:25:18,226 INFO autoreload 9119 140616636846080 /home/shosen/my_projects/onnorokom-pathshala-videos/app/settings.py changed, reloading.
+2022-10-14 07:25:18,622 INFO autoreload 10575 139797939630080 Watching for file changes with StatReloader
+2022-10-14 07:25:22,853 INFO autoreload 10575 139797939630080 /home/shosen/my_projects/onnorokom-pathshala-videos/app/settings.py changed, reloading.
+2022-10-14 07:25:23,224 INFO autoreload 10607 139645734559744 Watching for file changes with StatReloader
+2022-10-14 07:25:30,579 INFO autoreload 10607 139645734559744 /home/shosen/my_projects/onnorokom-pathshala-videos/app/settings.py changed, reloading.
+2022-10-14 07:25:30,991 INFO autoreload 10700 139648021266432 Watching for file changes with StatReloader
+2022-10-14 08:18:12,995 INFO autoreload 28470 140172220076032 Watching for file changes with StatReloader
+2022-10-14 08:18:16,618 WARNING log 28470 140172127626816 Not Found: /
+2022-10-14 08:18:17,149 WARNING log 28470 140172127626816 Not Found: /favicon.ico
+2022-10-14 08:36:44,953 INFO autoreload 28470 140172220076032 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/urls.py changed, reloading.
+2022-10-14 08:36:45,408 INFO autoreload 32056 140374114979840 Watching for file changes with StatReloader
+2022-10-14 08:38:04,829 INFO autoreload 32458 140272399028224 Watching for file changes with StatReloader
+2022-10-14 08:38:28,748 INFO autoreload 32458 140272399028224 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/models.py changed, reloading.
+2022-10-14 08:38:29,179 INFO autoreload 32553 139960216842240 Watching for file changes with StatReloader
+2022-10-14 08:38:47,555 INFO autoreload 32553 139960216842240 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/models.py changed, reloading.
+2022-10-14 08:38:47,946 INFO autoreload 32637 140436379627520 Watching for file changes with StatReloader
+2022-10-14 08:38:55,236 INFO autoreload 32637 140436379627520 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/admin.py changed, reloading.
+2022-10-14 08:38:55,639 INFO autoreload 32698 139867086331904 Watching for file changes with StatReloader
+2022-10-14 08:39:00,922 INFO autoreload 32698 139867086331904 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/admin.py changed, reloading.
+2022-10-14 08:39:01,305 INFO autoreload 32729 140515946532864 Watching for file changes with StatReloader
+2022-10-14 08:39:23,872 INFO autoreload 32729 140515946532864 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/admin.py changed, reloading.
+2022-10-14 08:39:24,278 INFO autoreload 32828 140309928972288 Watching for file changes with StatReloader
+2022-10-14 08:39:43,053 INFO autoreload 32828 140309928972288 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 08:39:43,471 INFO autoreload 32936 139729368342528 Watching for file changes with StatReloader
+2022-10-14 08:39:59,096 INFO autoreload 32936 139729368342528 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 08:39:59,477 INFO autoreload 33004 140164856750080 Watching for file changes with StatReloader
+2022-10-14 08:40:10,791 INFO autoreload 33068 140718546141184 Watching for file changes with StatReloader
+2022-10-14 08:41:03,352 INFO autoreload 33004 140164856750080 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 08:41:03,370 INFO autoreload 33068 140718546141184 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 08:41:03,857 INFO autoreload 33166 139982251573248 Watching for file changes with StatReloader
+2022-10-14 08:41:03,863 INFO autoreload 33167 139669435904000 Watching for file changes with StatReloader
+2022-10-14 08:41:07,226 INFO autoreload 33166 139982251573248 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 08:41:07,234 INFO autoreload 33167 139669435904000 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 08:41:07,779 INFO autoreload 33222 140408885596160 Watching for file changes with StatReloader
+2022-10-14 08:41:07,781 INFO autoreload 33223 140048417628160 Watching for file changes with StatReloader
+2022-10-14 08:41:17,639 WARNING base 33222 140408722028096 Session data corrupted
+2022-10-14 08:45:09,121 INFO autoreload 33222 140408885596160 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 08:45:09,517 INFO autoreload 33947 140718832234496 Watching for file changes with StatReloader
+2022-10-14 08:45:18,977 INFO autoreload 33947 140718832234496 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 08:45:19,390 INFO autoreload 34048 139634999500800 Watching for file changes with StatReloader
+2022-10-14 08:45:23,651 INFO autoreload 34048 139634999500800 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 08:45:24,073 INFO autoreload 34083 139674139095040 Watching for file changes with StatReloader
+2022-10-14 08:45:26,655 WARNING base 34083 139674044589632 Session data corrupted
+2022-10-14 08:45:26,726 WARNING base 34083 139674044589632 Session data corrupted
+2022-10-14 08:45:34,305 WARNING base 34083 139674044589632 Session data corrupted
+2022-10-14 08:47:28,044 INFO autoreload 34083 139674139095040 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 08:47:28,495 INFO autoreload 34648 140471672373248 Watching for file changes with StatReloader
+2022-10-14 08:47:29,792 WARNING base 34648 140471578912320 Session data corrupted
+2022-10-14 08:47:34,012 WARNING base 34648 140471578912320 Session data corrupted
+2022-10-14 08:47:38,009 INFO autoreload 34648 140471672373248 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 08:47:38,459 INFO autoreload 34744 139962649481216 Watching for file changes with StatReloader
+2022-10-14 08:47:43,803 INFO autoreload 34744 139962649481216 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 08:47:44,209 INFO autoreload 34803 140532935180288 Watching for file changes with StatReloader
+2022-10-14 09:40:03,634 INFO autoreload 7963 139856268251136 Watching for file changes with StatReloader
+2022-10-14 09:40:07,873 WARNING base 7963 139856173852224 Session data corrupted
+2022-10-14 09:40:07,893 WARNING log 7963 139856173852224 Not Found: /
+2022-10-14 09:40:08,507 WARNING base 7963 139856173852224 Session data corrupted
+2022-10-14 09:40:08,513 WARNING log 7963 139856173852224 Not Found: /favicon.ico
+2022-10-14 09:40:14,405 WARNING base 7963 139856173852224 Session data corrupted
+2022-10-14 09:40:18,417 WARNING base 7963 139855937922624 Session data corrupted
+2022-10-14 09:40:20,705 WARNING base 7963 139855937922624 Session data corrupted
+2022-10-14 09:40:22,436 WARNING base 7963 139855937922624 Session data corrupted
+2022-10-14 09:41:44,111 INFO autoreload 7963 139856268251136 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 09:41:44,619 INFO autoreload 8438 139733717467136 Watching for file changes with StatReloader
+2022-10-14 09:41:59,640 INFO autoreload 8542 140415608143872 Watching for file changes with StatReloader
+2022-10-14 09:42:03,959 INFO autoreload 8542 140415608143872 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 09:42:04,519 INFO autoreload 8593 140391514763264 Watching for file changes with StatReloader
+2022-10-14 09:42:11,956 INFO autoreload 8593 140391514763264 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 09:42:12,464 INFO autoreload 8831 140457256050688 Watching for file changes with StatReloader
+2022-10-14 09:42:17,810 INFO autoreload 8831 140457256050688 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 09:42:18,363 INFO autoreload 8892 139856249057280 Watching for file changes with StatReloader
+2022-10-14 09:42:37,181 INFO autoreload 8892 139856249057280 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/urls.py changed, reloading.
+2022-10-14 09:42:37,678 INFO autoreload 8977 140334661480448 Watching for file changes with StatReloader
+2022-10-14 09:43:47,229 INFO autoreload 8977 140334661480448 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/urls.py changed, reloading.
+2022-10-14 09:43:47,690 INFO autoreload 9075 140648594075648 Watching for file changes with StatReloader
+2022-10-14 09:46:05,449 INFO autoreload 9075 140648594075648 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/urls.py changed, reloading.
+2022-10-14 09:46:05,857 INFO autoreload 9346 140247085862912 Watching for file changes with StatReloader
+2022-10-14 09:46:12,195 INFO autoreload 9346 140247085862912 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/urls.py changed, reloading.
+2022-10-14 09:46:12,595 INFO autoreload 9399 140668884533248 Watching for file changes with StatReloader
+2022-10-14 09:46:24,038 INFO autoreload 9399 140668884533248 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/urls.py changed, reloading.
+2022-10-14 09:46:24,452 INFO autoreload 9471 139724066836480 Watching for file changes with StatReloader
+2022-10-14 09:48:01,758 INFO autoreload 9471 139724066836480 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 09:48:02,160 INFO autoreload 9868 140205236539392 Watching for file changes with StatReloader
+2022-10-14 09:49:20,605 WARNING base 9868 140205142042176 Session data corrupted
+2022-10-14 09:49:20,650 WARNING base 9868 140205142042176 Session data corrupted
+2022-10-14 09:49:32,113 WARNING base 9868 140205142042176 Session data corrupted
+2022-10-14 09:49:54,062 ERROR log 9868 140204900869696 Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 439, in _iterencode
+    yield from _iterencode(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Like is not JSON serializable
+2022-10-14 09:52:55,731 INFO autoreload 9868 140205236539392 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:52:56,169 INFO autoreload 11160 139665648836608 Watching for file changes with StatReloader
+2022-10-14 09:53:20,115 INFO autoreload 11160 139665648836608 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:53:20,543 INFO autoreload 11355 139782410248192 Watching for file changes with StatReloader
+2022-10-14 09:53:22,825 INFO autoreload 11355 139782410248192 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:53:23,264 INFO autoreload 11389 140660920832000 Watching for file changes with StatReloader
+2022-10-14 09:53:27,657 INFO autoreload 11389 140660920832000 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:53:28,070 INFO autoreload 11427 140304099885056 Watching for file changes with StatReloader
+2022-10-14 09:53:29,872 WARNING base 11427 140304005981760 Session data corrupted
+2022-10-14 09:53:29,937 ERROR log 11427 140304005981760 Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'RelatedManager' object has no attribute 'video'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/relations.py", line 190, in get_attribute
+    return super().get_attribute(instance)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `video` on serializer `LikeSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `RelatedManager` instance.
+Original exception text was: 'RelatedManager' object has no attribute 'video'.
+2022-10-14 09:54:06,349 INFO autoreload 11427 140304099885056 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:54:06,805 INFO autoreload 11532 140188055052288 Watching for file changes with StatReloader
+2022-10-14 09:54:20,836 WARNING base 11532 140187962172992 Session data corrupted
+2022-10-14 09:54:20,908 WARNING base 11532 140187962172992 Session data corrupted
+2022-10-14 09:54:30,830 WARNING base 11532 140187953780288 Session data corrupted
+2022-10-14 09:54:50,672 ERROR log 11532 140187953780288 Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'RelatedManager' object has no attribute 'video'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/relations.py", line 190, in get_attribute
+    return super().get_attribute(instance)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `video` on serializer `LikeSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `RelatedManager` instance.
+Original exception text was: 'RelatedManager' object has no attribute 'video'.
+2022-10-14 09:55:16,026 INFO autoreload 11532 140188055052288 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:55:16,462 INFO autoreload 11847 140442573922304 Watching for file changes with StatReloader
+2022-10-14 09:55:18,947 WARNING base 11847 140442410677824 Session data corrupted
+2022-10-14 09:55:19,012 ERROR log 11847 140442410677824 Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'RelatedManager' object has no attribute 'video'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/relations.py", line 190, in get_attribute
+    return super().get_attribute(instance)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `video` on serializer `LikeSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `RelatedManager` instance.
+Original exception text was: 'RelatedManager' object has no attribute 'video'.
+2022-10-14 09:58:32,348 INFO autoreload 11847 140442573922304 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:58:32,799 INFO autoreload 12393 139675009339392 Watching for file changes with StatReloader
+2022-10-14 09:58:37,744 WARNING base 12393 139674914907712 Session data corrupted
+2022-10-14 09:58:58,840 INFO autoreload 12393 139675009339392 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:58:59,288 INFO autoreload 12545 139765543616512 Watching for file changes with StatReloader
+2022-10-14 09:59:01,847 WARNING base 12545 139765450008128 Session data corrupted
+2022-10-14 09:59:01,900 ERROR log 12545 139765450008128 Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 1052, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 1148, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'dislikes' was declared on serializer VideoSerializer, but has not been included in the 'fields' option.
+2022-10-14 09:59:22,299 INFO autoreload 12545 139765543616512 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:59:22,711 INFO autoreload 12648 140697662562304 Watching for file changes with StatReloader
+2022-10-14 09:59:24,678 WARNING base 12648 140697569060416 Session data corrupted
+2022-10-14 09:59:31,214 INFO autoreload 12648 140697662562304 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:59:31,674 INFO autoreload 12727 139694049071104 Watching for file changes with StatReloader
+2022-10-14 09:59:32,950 WARNING base 12727 139693954950720 Session data corrupted
+2022-10-14 09:59:43,262 INFO autoreload 12727 139694049071104 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:59:43,683 INFO autoreload 12797 139633779941376 Watching for file changes with StatReloader
+2022-10-14 09:59:47,950 INFO autoreload 12797 139633779941376 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:59:48,365 INFO autoreload 12831 140272960303104 Watching for file changes with StatReloader
+2022-10-14 09:59:52,642 INFO autoreload 12831 140272960303104 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:59:53,080 INFO autoreload 12860 140278877814784 Watching for file changes with StatReloader
+2022-10-14 09:59:59,430 INFO autoreload 12860 140278877814784 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 09:59:59,950 INFO autoreload 12903 140038522732544 Watching for file changes with StatReloader
+2022-10-14 10:00:17,617 INFO autoreload 12903 140038522732544 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:00:18,014 INFO autoreload 12972 139644878020608 Watching for file changes with StatReloader
+2022-10-14 10:00:21,256 INFO autoreload 12972 139644878020608 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:00:21,669 INFO autoreload 13014 140095731961856 Watching for file changes with StatReloader
+2022-10-14 10:00:50,623 INFO autoreload 13014 140095731961856 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:00:51,017 INFO autoreload 13081 140216197312512 Watching for file changes with StatReloader
+2022-10-14 10:01:24,090 INFO autoreload 13081 140216197312512 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/models.py changed, reloading.
+2022-10-14 10:01:24,473 INFO autoreload 13170 140004283056128 Watching for file changes with StatReloader
+2022-10-14 10:01:32,847 INFO autoreload 13170 140004283056128 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/models.py changed, reloading.
+2022-10-14 10:01:33,263 INFO autoreload 13261 140712988958720 Watching for file changes with StatReloader
+2022-10-14 10:01:38,601 INFO autoreload 13261 140712988958720 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/models.py changed, reloading.
+2022-10-14 10:01:39,015 INFO autoreload 13322 140670256336896 Watching for file changes with StatReloader
+2022-10-14 10:01:46,436 INFO autoreload 13322 140670256336896 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/models.py changed, reloading.
+2022-10-14 10:01:46,816 INFO autoreload 13379 140380242903040 Watching for file changes with StatReloader
+2022-10-14 10:08:50,833 INFO autoreload 13379 140380242903040 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:08:51,247 INFO autoreload 14246 139800048152576 Watching for file changes with StatReloader
+2022-10-14 10:09:15,032 INFO autoreload 14246 139800048152576 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:09:15,410 INFO autoreload 14390 140264801947648 Watching for file changes with StatReloader
+2022-10-14 10:09:20,663 INFO autoreload 14390 140264801947648 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:09:21,033 INFO autoreload 14421 140516575318016 Watching for file changes with StatReloader
+2022-10-14 10:10:20,600 WARNING base 14421 140516481033792 Session data corrupted
+2022-10-14 10:18:24,250 WARNING base 14421 140516481033792 Session data corrupted
+2022-10-14 10:18:24,287 ERROR log 14421 140516481033792 Internal Server Error: /api/likes/
+Traceback (most recent call last):
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 45, in list
+    serializer = self.get_serializer(queryset, many=True)
+  File "/home/shosen/my_projects/onnorokom-pathshala-videos/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 110, in get_serializer
+    return serializer_class(*args, **kwargs)
+TypeError: 'LikeSerializer' object is not callable
+2022-10-14 10:19:05,920 INFO autoreload 14421 140516575318016 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:19:06,360 INFO autoreload 16548 139970512711680 Watching for file changes with StatReloader
+2022-10-14 10:19:09,624 INFO autoreload 16548 139970512711680 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:19:10,043 INFO autoreload 16581 140594991845376 Watching for file changes with StatReloader
+2022-10-14 10:19:11,317 WARNING base 16581 140594898789952 Session data corrupted
+2022-10-14 10:19:17,662 INFO autoreload 16581 140594991845376 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:19:18,096 INFO autoreload 16671 139721560444928 Watching for file changes with StatReloader
+2022-10-14 10:19:24,775 WARNING base 16671 139721393043008 Session data corrupted
+2022-10-14 10:19:35,850 INFO autoreload 16671 139721560444928 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:19:36,260 INFO autoreload 16817 139651453370368 Watching for file changes with StatReloader
+2022-10-14 10:19:44,700 INFO autoreload 16817 139651453370368 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:19:45,126 INFO autoreload 16868 139877880942592 Watching for file changes with StatReloader
+2022-10-14 10:20:05,946 INFO autoreload 16868 139877880942592 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 10:20:06,353 INFO autoreload 16917 140495458467840 Watching for file changes with StatReloader
+2022-10-14 10:20:13,314 WARNING base 16917 140495292462656 Session data corrupted
+2022-10-14 10:20:13,366 WARNING base 16917 140495292462656 Session data corrupted
+2022-10-14 10:20:21,722 WARNING base 16917 140495275677248 Session data corrupted
+2022-10-14 10:20:26,277 WARNING base 16917 140495275677248 Session data corrupted
+2022-10-14 10:20:58,130 INFO autoreload 16917 140495458467840 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 10:20:58,566 INFO autoreload 17213 140494918840320 Watching for file changes with StatReloader
+2022-10-14 10:21:06,022 WARNING base 17213 140494755591744 Session data corrupted
+2022-10-14 10:21:13,088 WARNING base 17213 140494755591744 Session data corrupted
+2022-10-14 10:21:13,155 WARNING base 17213 140494755591744 Session data corrupted
+2022-10-14 10:21:22,535 WARNING base 17213 140494755591744 Session data corrupted
+2022-10-14 10:21:33,163 INFO autoreload 17213 140494918840320 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 10:21:33,623 INFO autoreload 17399 140338650386432 Watching for file changes with StatReloader
+2022-10-14 10:22:09,574 WARNING base 17399 140338556560960 Session data corrupted
+2022-10-14 10:22:15,438 WARNING base 17399 140338556560960 Session data corrupted
+2022-10-14 10:22:16,886 WARNING base 17399 140338556560960 Session data corrupted
+2022-10-14 10:22:20,572 WARNING base 17399 140338556560960 Session data corrupted
+2022-10-14 10:22:21,377 WARNING base 17399 140338556560960 Session data corrupted
+2022-10-14 10:22:36,983 WARNING base 17399 140338556560960 Session data corrupted
+2022-10-14 10:22:40,910 WARNING base 17399 140338556560960 Session data corrupted
+2022-10-14 10:22:43,430 WARNING base 17399 140338556560960 Session data corrupted
+2022-10-14 10:22:49,925 INFO autoreload 17399 140338650386432 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:22:50,336 INFO autoreload 17895 139915408433152 Watching for file changes with StatReloader
+2022-10-14 10:23:04,977 INFO autoreload 17895 139915408433152 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:23:05,394 INFO autoreload 17970 140543325589504 Watching for file changes with StatReloader
+2022-10-14 10:23:14,848 INFO autoreload 17970 140543325589504 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:23:15,332 INFO autoreload 18048 140351260905472 Watching for file changes with StatReloader
+2022-10-14 10:23:25,793 INFO autoreload 18048 140351260905472 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 10:23:26,241 INFO autoreload 18151 140150961676288 Watching for file changes with StatReloader
+2022-10-14 10:24:38,110 WARNING base 18151 140150867748416 Session data corrupted
+2022-10-14 10:25:24,956 INFO autoreload 18151 140150961676288 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/models.py changed, reloading.
+2022-10-14 10:25:25,384 INFO autoreload 18753 140667050319872 Watching for file changes with StatReloader
+2022-10-14 10:25:49,310 INFO autoreload 18753 140667050319872 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/models.py changed, reloading.
+2022-10-14 10:25:49,717 INFO autoreload 18820 139783590965248 Watching for file changes with StatReloader
+2022-10-14 10:25:58,110 INFO autoreload 18820 139783590965248 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/models.py changed, reloading.
+2022-10-14 10:25:58,513 INFO autoreload 18953 140537546870784 Watching for file changes with StatReloader
+2022-10-14 10:26:16,270 INFO autoreload 18953 140537546870784 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 10:26:16,687 INFO autoreload 18997 140129690955776 Watching for file changes with StatReloader
+2022-10-14 10:26:19,018 WARNING base 18997 140129597384256 Session data corrupted
+2022-10-14 10:26:41,672 INFO autoreload 18997 140129690955776 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 10:26:42,113 INFO autoreload 19141 140329103659008 Watching for file changes with StatReloader
+2022-10-14 10:26:43,987 WARNING base 19141 140329010325056 Session data corrupted
+2022-10-14 10:26:59,810 INFO autoreload 19141 140329103659008 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 10:27:00,288 INFO autoreload 19279 140375950114816 Watching for file changes with StatReloader
+2022-10-14 10:27:06,663 INFO autoreload 19279 140375950114816 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/serializers.py changed, reloading.
+2022-10-14 10:27:07,071 INFO autoreload 19372 139641970343936 Watching for file changes with StatReloader
+2022-10-14 17:55:33,416 INFO autoreload 9109 140481139326976 Watching for file changes with StatReloader
+2022-10-14 18:33:31,197 WARNING log 9109 140481045456448 Not Found: /
+2022-10-14 18:33:31,708 WARNING log 9109 140481034966592 Not Found: /favicon.ico
+2022-10-14 20:13:48,476 INFO autoreload 8539 139944200290304 Watching for file changes with StatReloader
+2022-10-14 21:39:13,064 INFO autoreload 8539 139944200290304 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 21:39:13,831 INFO autoreload 25382 139627181731840 Watching for file changes with StatReloader
+2022-10-14 21:44:40,978 INFO autoreload 25382 139627181731840 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 21:44:41,407 INFO autoreload 26012 140718654230528 Watching for file changes with StatReloader
+2022-10-14 21:47:26,086 INFO autoreload 26012 140718654230528 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 21:47:26,547 INFO autoreload 26453 140059684364288 Watching for file changes with StatReloader
+2022-10-14 21:48:11,189 INFO autoreload 26453 140059684364288 /home/shosen/my_projects/onnorokom-pathshala-videos/videos/views.py changed, reloading.
+2022-10-14 21:48:11,654 INFO autoreload 26536 140500288118784 Watching for file changes with StatReloader
+2022-10-14 22:07:38,841 WARNING log 26536 140500095977024 Not Found: /favicon.ico

@@ -10,9 +10,8 @@ OnnoRokom Pathshala videos modules
 
 
 1. ### Configure the project
-    - mkdir dir_name
+    - git clone https://github.com/cseshahriar/onnorokom-pathshala-videos.git
     - cd dir_name
-    - git clone https://github.com/cseshahriar/onnorokom-pathshala-users.git
     - Create folders for `logs`, and `media`.
     - Copy `local_settings.example` to `local_settings.py`.
     - Update `local_settings.py` with proper `settings`, including `database`.
@@ -35,6 +34,6 @@ OnnoRokom Pathshala videos modules
     - Run `python manage.py makemigrations` and `python manage.py makemigrations migrate`.
     - Run `python manage.py tests`
     - Create superuser to access the admin panel `python manage.py createsuperuser`.
-    - Run django `python manage.py runserver 127.0.0.1:8080` to view the project or application.
+    - Run django `python manage.py runserver 127.0.0.1:8001` to view the project or application.
     
-   > _NOTE: Browse to [http://127.0.0.1:8080/](http://127.0.0.1:8080/) to view the site. Admin site is at url [/manage](http://127.0.0.1:8080/manage) changed from default to keep the project secure. Admin url can be changed in `settings.py` --> `ADMIN_URL`_
+   > _NOTE: Browse to [http://127.0.0.1:8001/](http://127.0.0.1:8001/) to view the site. Admin site is at url [/manage](http://127.0.0.1:8001/admin) changed from default to keep the project secure. Admin url can be changed in `settings.py` --> `ADMIN_URL`_
