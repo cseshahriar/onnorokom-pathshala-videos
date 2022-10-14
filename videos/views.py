@@ -4,7 +4,7 @@ from rest_framework.decorators import action # noqa
 from rest_framework.permissions import IsAuthenticated, AllowAny  # noqa
 
 from .models import Video, Like, Dislike  # noqa
-from .serializers import VideoSerializer, LikeSerializer, DisLikeSerializer  # noqa
+from .serializers import VideoSerializer, LikeSerializer, DisLikeSerializer
 from rest_framework.authentication import TokenAuthentication  # noqa
 
 
@@ -24,11 +24,11 @@ class VideoViewSet(viewsets.ModelViewSet):
 
 class LikeViewSet(viewsets.ModelViewSet):
     queryset = Like.objects.all()
-    serializer_class = LikeSerializer()
+    serializer_class = LikeSerializer
     permission_classes = (AllowAny,)
 
 
 class DisLikeViewSet(viewsets.ModelViewSet):
     queryset = Dislike.objects.all()
-    serializer_class = Dislike()
+    serializer_class = DisLikeSerializer
     permission_classes = (AllowAny,)
