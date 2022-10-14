@@ -20,3 +20,15 @@ class VideoViewSet(viewsets.ModelViewSet):
         instance.save()
         serializer = self.get_serializer(instance)
         return Response(serializer.data)
+
+
+class LikeViewSet(viewsets.ModelViewSet):
+    queryset = Like.objects.all()
+    serializer_class = LikeSerializer()
+    permission_classes = (AllowAny,)
+
+
+class DisLikeViewSet(viewsets.ModelViewSet):
+    queryset = Dislike.objects.all()
+    serializer_class = Dislike()
+    permission_classes = (AllowAny,)
