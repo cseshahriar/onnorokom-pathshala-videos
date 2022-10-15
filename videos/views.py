@@ -23,6 +23,17 @@ class VideoViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
 
+class UserVideoListAPIView(APIView):
+    """ return user video list"""
+    permission_classes = (AllowAny,)
+
+    def get(self, request, user_id, format=None):
+        videos = Video.objects.filter(
+            author_id=user_id).order_by('-created_at')
+        serializer = VideoSerializer(videos, many=True)
+        return Response(serializer.data)
+
+
 class LikeViewSet(viewsets.ModelViewSet):
     queryset = Like.objects.all()
     serializer_class = LikeSerializer
