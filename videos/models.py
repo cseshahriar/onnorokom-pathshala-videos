@@ -5,7 +5,7 @@ from users.models import User
 
 
 class BaseAttribute(models.Model):
-    create_user = models.ForeignKey(
+    created_user = models.ForeignKey(
         User, on_delete=models.SET_NULL, null=True, blank=True,
         related_name="%(app_label)s_%(class)s_created_by"
     )
@@ -26,7 +26,6 @@ class Video(BaseAttribute):
     slug = models.SlugField(max_length=250, null=True, blank=True)
     description = models.TextField(max_length=300)
     youtube_video_id = models.CharField(max_length=255)
-    author_id = models.BigIntegerField()
     view_count = models.BigIntegerField(default=0)
     is_active = models.BooleanField(default=True)
 
@@ -63,11 +62,10 @@ class Like(BaseAttribute):
         Video, on_delete=models.CASCADE,
         related_name='likes'
     )
-    user_id = models.PositiveIntegerField()
 
     class Meta:
-        unique_together = (('user_id', 'video'),)
-        index_together = (('user_id', 'video'),)
+        unique_together = (('created_user', 'video'),)
+        index_together = (('created_user', 'video'),)
 
     def __str__(self):
         return self.video.title
@@ -78,11 +76,10 @@ class Dislike(BaseAttribute):
         Video, on_delete=models.CASCADE,
         related_name='dislikes'
     )
-    user_id = models.PositiveIntegerField()
 
     class Meta:
-        unique_together = (('user_id', 'video'),)
-        index_together = (('user_id', 'video'),)
+        unique_together = (('created_user', 'video'),)
+        index_together = (('created_user', 'video'),)
 
     def __str__(self):
         return self.video.title

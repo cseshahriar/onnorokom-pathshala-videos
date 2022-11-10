@@ -5,13 +5,13 @@ from .models import Video, Like, Dislike
 class LikeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Like
-        fields = ['id', 'video', 'user_id', 'created_at']
+        fields = ['id', 'video', 'created_user', 'created_at']
 
 
 class DisLikeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Dislike
-        fields = ['id', 'video', 'user_id', 'created_at']
+        fields = ['id', 'video', 'created_user', 'created_at']
 
 
 class VideoSerializer(serializers.ModelSerializer):
@@ -27,7 +27,7 @@ class VideoSerializer(serializers.ModelSerializer):
             'slug',
             'description',
             'youtube_video_id',
-            'author_id',
+            'created_user',
             'view_count',
             'created_at',
             'likes',

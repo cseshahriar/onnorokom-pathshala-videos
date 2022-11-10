@@ -14,7 +14,6 @@ class VideoAdmin(admin.ModelAdmin):
         'slug',
         'description',
         'youtube_video_id',
-        'author_id',
         'view_count',
         'is_active',
     )
@@ -25,13 +24,13 @@ class VideoAdmin(admin.ModelAdmin):
 
 @admin.register(Like)
 class likeAdmin(admin.ModelAdmin):
-    list_display = ('id', 'created_at', 'updated_at', 'video', 'user_id')
+    list_display = ('id', 'created_at', 'updated_at', 'video')
     list_filter = ('created_at', 'updated_at', 'video')
     date_hierarchy = 'created_at'
 
 
 @admin.register(Dislike)
 class DislikeAdmin(admin.ModelAdmin):
-    list_display = ('id', 'created_at', 'updated_at', 'video', 'user_id')
+    list_display = ('id', 'created_at', 'updated_at', 'video',)
     list_filter = ('created_at', 'updated_at', 'video')
     date_hierarchy = 'created_at'
