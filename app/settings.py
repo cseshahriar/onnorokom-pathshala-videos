@@ -59,7 +59,8 @@ PLUGIN_APPS = [
 
 # add project applications here
 PROJECT_APPS = [
-    "videos.apps.VideosConfig"
+    "videos.apps.VideosConfig",
+    "users.apps.UsersConfig",
 ]
 
 # consolidate all installed applications here
@@ -164,3 +165,5 @@ LOGGING = LOGGING  # app/logging.py
 # CORS_ALLOWED_ORIGINS = CORS_ALLOWED_ORIGINS
 # CORS_ALLOW_ALL_ORIGINS = DEBUG  # Allows from all origins when DEBUG mode on
 CORS_ALLOW_ALL_ORIGINS = True
+
+AUTH_USER_MODEL = 'users.User'
