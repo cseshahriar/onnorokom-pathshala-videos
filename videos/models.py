@@ -1,9 +1,19 @@
 from django.db import models
 from .utils import generate_unique_slug
 from django.utils.text import slugify
+from users.models import User
 
 
 class BaseAttribute(models.Model):
+    create_user = models.ForeignKey(
+        User, on_delete=models.SET_NULL, null=True, blank=True,
+        related_name="%(app_label)s_%(class)s_created_by"
+    )
+    updated_user = models.ForeignKey(
+        User, on_delete=models.SET_NULL, null=True, blank=True,
+        related_name="%(app_label)s_%(class)s_updated_by"
+    )
+    is_active = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
