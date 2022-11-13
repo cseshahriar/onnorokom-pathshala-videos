@@ -51,10 +51,10 @@ class LikeDeleteAPIView(APIView):
 
     def post(self, request, format=None):
         video_id = request.data.get('video')
-        user_id = request.data.get('user_id')
-        if video_id and user_id:
+        created_user = request.data.get('created_user')
+        if video_id and created_user:
             Like.objects.filter(
-                video_id=video_id, created_user_id=user_id
+                video_id=video_id, created_user_id=created_user
             ).delete()
 
         return Response(status=status.HTTP_204_NO_CONTENT)
@@ -65,10 +65,10 @@ class DisLikeDeleteAPIView(APIView):
 
     def post(self, request, format=None):
         video_id = request.data.get('video')
-        user_id = request.data.get('user_id')
-        if video_id and user_id:
+        created_user = request.data.get('created_user')
+        if video_id and created_user:
             Dislike.objects.filter(
-                video_id=video_id, created_user_id=user_id
+                video_id=video_id, created_user_id=created_user
             ).delete()
 
         return Response(status=status.HTTP_204_NO_CONTENT)
