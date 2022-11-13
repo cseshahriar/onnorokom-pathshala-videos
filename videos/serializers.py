@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from .models import Video, Like, Dislike
-from users.serializers import UserSerializer
+from users.serializers import UserSerializer  # noqa
 
 
 class LikeSerializer(serializers.ModelSerializer):
@@ -17,7 +17,7 @@ class DisLikeSerializer(serializers.ModelSerializer):
 
 class VideoSerializer(serializers.ModelSerializer):
     # relational data
-    created_user = UserSerializer(required=True)
+    # created_user = UserSerializer(read_only=True)
     likes = LikeSerializer(many=True, read_only=True)
     dislikes = DisLikeSerializer(many=True, read_only=True)
 

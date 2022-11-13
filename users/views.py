@@ -1,21 +1,20 @@
 from rest_framework import status, viewsets  # noqa
 from rest_framework.response import Response  # noqa
 from rest_framework.permissions import IsAuthenticated, AllowAny  # noqa
+from rest_framework.authentication import TokenAuthentication  # noqa
 
-from rest_framework.authtoken.views import ObtainAuthToken
-from rest_framework.authtoken.models import Token
+from rest_framework.authtoken.views import ObtainAuthToken  # noqa
+from rest_framework.authtoken.models import Token # noqa
 from rest_framework.views import APIView
 
 from .models import User
 from .serializers import UserSerializer
-from rest_framework.authentication import TokenAuthentication
 
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
-    permission_classes = (IsAuthenticated,)
-    authentication_classes = (TokenAuthentication,)
+    permission_classes = (AllowAny,)
 
 
 class CustomAuthToken(ObtainAuthToken):

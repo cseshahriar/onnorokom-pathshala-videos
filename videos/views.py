@@ -29,7 +29,7 @@ class UserVideoListAPIView(APIView):
 
     def get(self, request, user_id, format=None):
         videos = Video.objects.filter(
-            author_id=user_id).order_by('-created_at')
+            created_user_id=user_id).order_by('-created_at')
         serializer = VideoSerializer(videos, many=True)
         return Response(serializer.data)
 
@@ -53,7 +53,9 @@ class LikeDeleteAPIView(APIView):
         video_id = request.data.get('video')
         user_id = request.data.get('user_id')
         if video_id and user_id:
-            Like.objects.filter(video_id=video_id, user_id=user_id).delete()
+            Like.objects.filter(
+                video_id=video_id, created_user_id=user_id
+            ).delete()
 
         return Response(status=status.HTTP_204_NO_CONTENT)
 
@@ -65,6 +67,8 @@ class DisLikeDeleteAPIView(APIView):
         video_id = request.data.get('video')
         user_id = request.data.get('user_id')
         if video_id and user_id:
-            Dislike.objects.filter(video_id=video_id, user_id=user_id).delete()
+            Dislike.objects.filter(
+                video_id=video_id, created_user_id=user_id
+            ).delete()
 
         return Response(status=status.HTTP_204_NO_CONTENT)
