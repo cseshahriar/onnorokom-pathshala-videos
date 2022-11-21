@@ -1,5 +1,5 @@
-# onnorokom-pathshala-videos
-OnnoRokom Pathshala videos modules
+# shosen-tube-videos
+Shosen tube videos modules
 
 # __Usage:__
 > _This document will be using the following
