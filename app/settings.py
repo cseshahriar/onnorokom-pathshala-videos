@@ -55,6 +55,7 @@ PLUGIN_APPS = [
     "corsheaders",
     "import_export",
     'django_extensions',
+    "model_history.apps.ModelHistoryConfig",
 ]
 
 # add project applications here
